@@ -9,7 +9,7 @@ public class Ex3 {
         System.out.println("Introduceti litera");
         letter= scanner.next().charAt(0);
         letter = Character.toLowerCase(letter);
-   if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u' /*|| letter == 'A' || letter == 'E' || letter == 'I' || letter == 'U' || letter == 'O'*/) {
+   if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u') {
             System.out.println("Litera introdusa este Vocala");
       }
 
