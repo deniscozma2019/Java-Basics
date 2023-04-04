@@ -8,9 +8,11 @@ public class Ex3 {
         char letter;
         System.out.println("Introduceti litera");
         letter= scanner.next().charAt(0);
-        if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u' || letter == 'A' || letter == 'E' || letter == 'I' || letter == 'U' || letter == 'O') {
+        letter = Character.toLowerCase(letter);
+   if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u' /*|| letter == 'A' || letter == 'E' || letter == 'I' || letter == 'U' || letter == 'O'*/) {
             System.out.println("Litera introdusa este Vocala");
-        }
+      }
+
         else if (Character.isDigit(letter)){
             System.out.println("A fost introdusa o cifra va rog introduceti o litera");
             return;
