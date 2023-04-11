@@ -43,3 +43,8 @@ public class Ex9 {
         System.out.println("Aria: " + aria);
     }
 }
+
+/*Elementele circumferinței se numerotează în felul următor: 1- raza, 2 - diametru,
+3 - lungimea, 4 - aria. Se introduce valoarea elementului și numărul său. Să se
+afișeze valorile celorlalte elemente ale circumferinței.
+*/
