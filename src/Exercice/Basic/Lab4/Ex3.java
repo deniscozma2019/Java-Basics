@@ -20,7 +20,6 @@ public class Ex3 {
                  impare += i;
                 }
        }
-
         if (pare == 0) {
             System.out.println("Nu exista numere pare");
         }
