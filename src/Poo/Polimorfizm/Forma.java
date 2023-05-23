@@ -1,7 +1,9 @@
 package Poo.Polimorfizm;
 
-public  abstract class Forma {
-    public abstract double getArie();
+public   class Forma {
+    public  double getArie(){
+        return 2;
+    }
     Forma[] forme = new Forma[3];
 
 }
