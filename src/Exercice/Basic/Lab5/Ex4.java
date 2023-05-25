@@ -10,12 +10,6 @@ public class Ex4 {
         // int number = scanner.nextInt();
         int result = 0;
 
-        /*for (int i = 0; number !=0 ; i++ ){
-
-            if (number>=100 && number<=999){
-                result ++;
-            }
-        }*/
 
         int number;
         do {
