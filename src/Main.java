@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        int x = 10;
+       /* int x = 10;
         var y = 1500000000;
         final int z = 10;
         boolean istrue = true;
@@ -25,6 +25,13 @@ public class Main {
         System.out.println(istrue);
         System.out.println(isfalse);
         System.out.println(ch);
-        System.out.println(hello);
+        System.out.println(hello);*/
+
+        
     }
+
+
+
+
+
 }

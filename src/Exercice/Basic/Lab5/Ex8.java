@@ -13,18 +13,14 @@ public class Ex8 {
             System.out.println("Introduceți un număr întreg (0 pentru a încheia): ");
             Scanner scanner = new Scanner(System.in);
             num = scanner.nextInt();
-
             if (num == 0) {
                 break;
             }
-
             if (semn_anterior != null && num * semn_anterior < 0) {
                 numar_de_schimbari++;
             }
-
             semn_anterior = Objects.nonNull(semn_anterior) ? semn_anterior : (num > 0 ? 1 : -1);
         }
-
         System.out.println("Numărul de schimbări de semn în secvență este: " + numar_de_schimbari);
     }
 }
