@@ -4,32 +4,40 @@ import java.util.Scanner;
 
 public class Ex1 {
     public static void main(String[] args) {
+        double a, b, c;
+        double delta;
+        double x1, x2;
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Introduceti valoarea pentru a: ");
+        a = scanner.nextDouble();
+
+        System.out.print("Introduceti valoarea pentru b: ");
+        b = scanner.nextDouble();
+
+        System.out.print("Introduceti valoarea pentru c: ");
+        c = scanner.nextDouble();
+
+        delta = b * b - 4 * a * c;
+
+        if (delta >= 0) {
+            if (delta == 0) {
+                x1 = -b / (2 * a);
+                x2 = x1; // x2 va fi egal cu x1 pentru o soluție dublă
+                System.out.println("Ecuatia are o solutie reala:");
+                System.out.println("x1 = x2 = " + x1);
+            } else {
+                x1 = (-b + Math.sqrt(delta)) / (2 * a);
+                x2 = (-b - Math.sqrt(delta)) / (2 * a);
+                System.out.println("Ecuatia are doua solutii reale distincte:");
+                System.out.println("x1 = " + x1);
+                System.out.println("x2 = " + x2);
+            }
+        } else {
+            System.out.println("Ecuatia nu are solutii reale.");
+        }
     }
-  public static double ecuation(double a,double b,double c, double delta){
-        System.out.println("Introduceti valoarea pentru a");
-          Scanner scanner_1 = new Scanner(System.in);
-          a = scanner_1.nextDouble();
-
-      System.out.println("Introduceti valoarea pentru b");
-          Scanner scanneer_2 = new Scanner(System.in);
-          b = scanneer_2.nextDouble();
-
-          System.out.println("Introduceti valoarea pentru c");
-        
-
-
-        return delta;
-  }
-
-
-
-    double solution1(double x1){
-
-        return x1;
-    }
-    double solution2(double x2){
-        return x2;
-    }
-
 
 }
+
